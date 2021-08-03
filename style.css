@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    position: relative;
+}
+p{
+    color: orange;
+    margin: 5px;
+    font-size: large;
+    
+}
+.hover{
+    display: inline-block;
+    border: 2px solid orange;
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    transition: 100ms;
+}
+.hover:hover{
+    border: 2px solid yellow;
+    box-shadow: 0px 10px 5px yellow;
+    transform: scale(1.1);
+}
+p:hover{
+    color: white;
+}
